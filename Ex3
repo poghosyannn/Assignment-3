@@ -1,0 +1,9 @@
+let n2 = 10 ;
+let n1 = 25 ;
+let count = 1 ;
+let product = 0 ;
+while( count <= n2 ) {
+    product += n1 ;
+    count++;
+}
+console.log(product) ;
