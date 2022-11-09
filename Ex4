@@ -1,0 +1,6 @@
+let our_array = [56, 73, 28, 555, 7432];
+let result = [];
+for ( let i = our_array.length - 1 ; i >= 0; i--){
+    result.push(our_array[i]);
+}
+console.log(result);
