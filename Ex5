@@ -1,0 +1,11 @@
+let dec = 500;
+let reverse = "";
+let binar = "";
+while(dec > 0 ){
+    reverse += dec % 2;
+    dec = Math.floor(dec/2);
+}
+for( let a=reverse.length-1; a>=0; a--){
+    binar+= reverse[a];
+}
+console.log(binar);
